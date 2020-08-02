@@ -1,0 +1,8 @@
+.item {
+  padding-left: 8px;
+}
+
+.isCompleted {
+  text-decoration: line-through;
+  color: aqua;
+}
