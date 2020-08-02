@@ -58,5 +58,3 @@ it("should alert when the user input the duplicate tasks", () => {
 
   expect(getAllByText("123")).toHaveLength(1);
 });
-
-it("", () => {});

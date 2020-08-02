@@ -8,6 +8,7 @@ export function AddButton(props) {
       data-testid="submit"
       onClick={() => {
         if (!props.text) {
+          console.log(props.alert);
           props.alert("please input something!");
           return;
         }

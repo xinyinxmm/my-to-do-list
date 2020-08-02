@@ -6,7 +6,11 @@ import { Input } from "./components/Input";
 import { AddButton } from "./components/AddButton";
 import { List } from "./components/List";
 
-export default function App({ alert = window.alert }) {
+function myAlert(msg) {
+  alert(msg);
+}
+
+export default function App({ alert = myAlert }) {
   const [text, setText] = useState("");
   const [list, setList] = useState([]);
 
